@@ -15,24 +15,12 @@
 class ScalarConverter
 {
 	public:
-		ScalarConverter();
-		~ScalarConverter();
 		ScalarConverter(const ScalarConverter &scalarconverter);
 		ScalarConverter &operator=(const ScalarConverter &scalarconverter);
-		// ScalarConverter(const char *value);
 		static void	convert(const char *value);
-		// void	printScalar(const ScalarConverter &scalarconverter);
-		// std::string getValue(void) const;
-		// char getChar(void) const;
-		// int	getInt(void) const;
-		// float getFloat(void) const;
-		// double	getDouble(void) const;
 	private:
-		// std::string _value;
-		// char _char;
-		// int	_int;
-		// float _float;
-		// double _double;
+		ScalarConverter();
+		~ScalarConverter();
 
 };
 #endif
